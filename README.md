@@ -6,3 +6,15 @@ The software includes an End User License Agreement (EULA) - The included "RTM" 
 
 # Preview
 ![image](https://github.com/user-attachments/assets/190f84d5-1d59-4794-bb76-e0788ca40011)
+
+# Known Issues
+- The color changer may not work. If the color changer has issues, follow these steps to fix it.
+1. Locate the "color_settings.cfg" file.
+2. Open the "color_settings.cfg" file in an editor such as VS Code, Notepad, etc.
+3. Delete everything inside the file.
+4. Once everything is deleted, paste in the following code:
+```cfg
+GradientColorPrimary=-32576
+GradientColorSecondary=-32576
+```
+5. Save the file and that's it, it should work now.
